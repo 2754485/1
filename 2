@@ -1,0 +1,21 @@
+Local Start = tick()
+Local ui = loadstring(game:HttpGet("https://pastebin.com/raw/3x4p40rT"))()
+Local win = ui:new("78脚本")
+
+Local UITab1 = win:Tab("公告栏","7734068321") -- 左侧边栏分类
+Local UITab2 = win:Tab("通用","7734068321") -- 左侧边栏分类
+Local UITab3 = win:Tab("其他文本","7734068321") -- 左侧边栏分类-
+
+Local about = UITab1:section("公告","true") -- 分类内功能分类
+about:Label("清除缓存")
+about:Label("文案")
+Local about = UITab2:section("功能","true") -- 分类内功能分类
+about:Slider -- (请输入内容)
+end)
+
+about:Toggle -- (开关类)
+end)
+
+about:Button("启动别的功能或脚本",function() -- (单击类)
+    loadstring(game:HttpGet("要加载链接"))()
+end)
