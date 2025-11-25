@@ -28,7 +28,7 @@ about:Label("客户端ID:"..game:GetService("RbxAnalyticsService"):GetClientId()
 local about = UITab1:section("『作者信息』",true)
 
 about:Label("91")
-about:Label("78")
+about:Label("13")
 
 local about = UITab2:section("『公告』",true)  -- 分类内功能分类
 about:Toggle("无限跳","Toggle",false,function(Value)
@@ -59,6 +59,9 @@ if Value then
 
 		end
 end)
+
+about:Toggle("自杀","Toggle",false,function(Value)
+game.Players.LocalPlayer.Character.Humanoid.Health=0
 
 local about = UITab3:section("『执行』",true)  -- 分类内功能分类
 about:Button("皮脚本",function() --（单点类）
