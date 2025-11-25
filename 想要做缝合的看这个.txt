@@ -11,7 +11,7 @@ Duration = 2
 local ui = loadstring(game:HttpGet("https://pastebin.com/raw/3vQbADjh"))()
 local win = ui:new("91脚本")
 
-local UITab1 = win:Tab("『公告』",'7734068321')
+local UITab1 = win:Tab("『公告』",'1425698732')
 local UITab2 = win:Tab("『通用类』",'7734068321')
 local UITab3 = win:Tab("『其他脚本』",'7734068321')
 
