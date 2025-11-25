@@ -13,7 +13,7 @@ local win = ui:new("91脚本")
 
 local UITab1 = win:Tab("『公告』",'7734068321')
 local UITab2 = win:Tab("『通用类』",'7734068321')
-local UITab3 = win:Tab("『服务器脚本』",'7734068321')
+local UITab3 = win:Tab("『其他脚本』",'7734068321')
 
 local about = UITab1:section("『公告』",true)
 
@@ -27,8 +27,8 @@ about:Label("客户端ID:"..game:GetService("RbxAnalyticsService"):GetClientId()
 
 local about = UITab1:section("『作者信息』",true)
 
-about:Label("公告文本")
-about:Label("公告文本")
+about:Label("91")
+about:Label("78")
 
 local about = UITab2:section("『公告』",true)  -- 分类内功能分类
 about:Toggle("无限跳","Toggle",false,function(Value)
@@ -61,8 +61,8 @@ if Value then
 end)
 
 local about = UITab3:section("『执行』",true)  -- 分类内功能分类
-about:Button("启动别的功能或脚本",function() --（单点类）
-    loadstring(game:HttpGet('脚本链接'))()
+about:Button("皮脚本",function() --（单点类）
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/xiaopi77/xiaopi77/main/QQ1002100032-Roblox-Pi-script.lua'))()
 end)
 
 -- 反挂机
