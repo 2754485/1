@@ -59,8 +59,6 @@ if Value then
 
 		end
 end)
-about:Button("自杀",function()
-    game.Players.LocalPlayer.Character.Humanoid.Health=0
 
 local about = UITab3:section("『执行』",true)  -- 分类内功能分类
 about:Button("皮脚本",function() --（单点类）
